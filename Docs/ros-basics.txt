@@ -1,0 +1,7 @@
+=> ROS Master:
+    * A crucial component that facilitates communication between different nodes.
+    * It acts as a central coordinator that provides name registration and lookup services to the nodes in the ROS system.
+
+=> ROS Node:
+    * A fundamental unit of computation.
+    * It is a process that performs a specific task within a ROS based application.

@@ -1,0 +1,6 @@
+> roscore                   ==> Start a ros master
+> left ctrl + c             ==> Stop a program from running
+
+> rosrun < p > < n >        ==> Run a ros node, p for package and n for name
+> rqt_graph                 ==> Visualize the communication between different nodes
+> rosrun < p > [tab twice]  ==> Show all the nodes in a package
