@@ -5,3 +5,9 @@
 => ROS Node:
     * A fundamental unit of computation.
     * It is a process that performs a specific task within a ROS based application.
+
+=> Create a ROS Project:
+    * Starting a new ROS project is conventionly done by creating a "Catkin" workspace.
+    * Inside the workspace folder, we create an src folder.
+    * Compile and initialize the project workspace.
+    * You need to source the "setup.bash" program, file inside "devel" inside project workspace.

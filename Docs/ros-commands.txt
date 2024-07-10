@@ -4,3 +4,7 @@
 > rosrun < p > < n >        ==> Run a ros node, p for package and n for name
 > rqt_graph                 ==> Visualize the communication between different nodes
 > rosrun < p > [tab twice]  ==> Show all the nodes in a package
+
+> mkdir catkin_ws           ==> Create the "Catkin" workspace for a project
+> mkdir src                 ==> Create the source folder for the project inside the workspace
+> catkin_make               ==> Compile and initialize the project workspace
