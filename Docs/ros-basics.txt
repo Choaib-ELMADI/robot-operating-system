@@ -15,3 +15,8 @@
 => ROS Project Structure:
     * Packages are created inside the src folder.
     * Each package can have many nodes.
+
+=> The #!/usr/bin/env python3
+    * This line at the beginning of a Python script is called a shebang (or hashbang) line.
+    * It tells the operating system how to execute the script.
+    * Without the shebang line, you would have to explicitly invoke the interpreter every time you run the script.

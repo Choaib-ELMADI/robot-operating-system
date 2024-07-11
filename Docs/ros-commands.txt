@@ -10,3 +10,6 @@
 > catkin_make                   ==> Compile and initialize the project workspace
 
 > catkin_create_pkg < n > < d > ==> Create a new package, n for name and d for dependencies that the nodes in this package will use
+
+> rosnode list                  ==> List all the running nodes
+> rosnode kill < n >            ==> Shutdown a node, n for name

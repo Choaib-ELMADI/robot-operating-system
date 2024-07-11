@@ -1,0 +1,13 @@
+> import rospy                  ==> Import the rospy package
+
+> rospy.init_node("node_name")  ==> Initialize a node with the name node_name
+
+> rospy.loginfo                 ==> Print an info message
+> rospy.logdebug                ==> Debugging
+> rospy.logerr                  ==> Print an error message
+> rospy.logwarn                 ==> Print a warning message
+
+> rospy.sleep                   ==> Interrupt the progrm execution for a delay
+
+> rate = rospy.Rate(n)          ==> Create a rate object, n Hz frequency
+> rate.sleep()                  ==> Sleep for 1 / n second
