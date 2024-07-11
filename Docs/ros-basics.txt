@@ -20,3 +20,12 @@
     * This line at the beginning of a Python script is called a shebang (or hashbang) line.
     * It tells the operating system how to execute the script.
     * Without the shebang line, you would have to explicitly invoke the interpreter every time you run the script.
+
+=> ROS Topics:
+    * ROS topics are a way for different nodes to talk to each other by sending and receiving messages.
+    * Publisher: publishing node, a sensor node that publishes some data to a topic.
+    * Subscriber: subscribing node, a processing node that subscribes to a topic to receive data from it.
+    * The type of a topic refers to the message type:
+        - std_msgs/String: A simple string message
+        - std_msgs/Int32: A 32-bit integer message
+        - std_msgs/Float32: A 32-bit floating-point number message
