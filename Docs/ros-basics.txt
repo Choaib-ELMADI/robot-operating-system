@@ -11,3 +11,7 @@
     * Inside the workspace folder, we create an src folder.
     * Compile and initialize the project workspace.
     * You need to source the "setup.bash" program, file inside "devel" inside project workspace.
+
+=> ROS Project Structure:
+    * Packages are created inside the src folder.
+    * Each package can have many nodes.
