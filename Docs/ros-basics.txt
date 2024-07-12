@@ -29,3 +29,6 @@
         - std_msgs/String: A simple string message
         - std_msgs/Int32: A 32-bit integer message
         - std_msgs/Float32: A 32-bit floating-point number message
+
+=> Write a ROS Publisher:
+    * 

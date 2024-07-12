@@ -1,13 +1,20 @@
-> import rospy                  ==> Import the rospy package
+> import rospy                                  ==> Import the rospy package
 
-> rospy.init_node("node_name")  ==> Initialize a node with the name node_name
+> rospy.init_node("node_name")                  ==> Initialize a node with the name node_name
 
-> rospy.loginfo                 ==> Print an info message
-> rospy.logdebug                ==> Debugging
-> rospy.logerr                  ==> Print an error message
-> rospy.logwarn                 ==> Print a warning message
+> rospy.loginfo                                 ==> Print an info message
+> rospy.logdebug                                ==> Debugging
+> rospy.logerr                                  ==> Print an error message
+> rospy.logwarn                                 ==> Print a warning message
 
-> rospy.sleep                   ==> Interrupt the progrm execution for a delay
+> rospy.sleep                                   ==> Interrupt the progrm execution for a delay
 
-> rate = rospy.Rate(n)          ==> Create a rate object, n Hz frequency
-> rate.sleep()                  ==> Sleep for 1 / n second
+> rate = rospy.Rate(n)                          ==> Create a rate object, n Hz frequency
+> rate.sleep()                                  ==> Sleep for 1 / n second
+
+> pub = rospy.Publisher(< t >, < d >, < q >)    ==> Create a publisher object, t for topic, d for data_class and q for queue size
+> msq = < d >()                                 ==> Crate an object message from your data_class
+> msg.linear.x = ...                            ==> Fill the message fields
+> pub.publish(msg)                              ==> Publish the message
+
+> sub = rospy.Subscriber(< t >, < d >, < c >)   ==> Create a subscriber object, t for topic, d for data_class and c for callback
