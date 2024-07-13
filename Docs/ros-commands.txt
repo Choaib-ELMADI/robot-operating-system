@@ -23,3 +23,5 @@
 > rosservice info < s >         ==> Print information about the s service: Node, URI, Type and Args
 > rosservice call < s > < r >   ==> Make a client call to the s service with the r request
 > rossrv show < t >             ==> Show request and response info about the t type service
+
+> rostopic hz < t >             ==> Print the data exchange frequency for the t topic

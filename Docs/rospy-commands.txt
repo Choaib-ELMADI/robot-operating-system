@@ -19,3 +19,7 @@
 
 > sub = rospy.Subscriber(< t >, < d >, < c >)   ==> Create a subscriber object, t for topic, d for data_class and c for callback
 > rospy.spin()                                  ==> This creates an infinite loop
+
+> rospy.wait_for_service(< s >)                 ==> Wait for the service s to be up and running
+> srv_client = rospy.ServiceProxy(< s >, < t >) ==> Create a service client
+> response = srv_client(< args >)               ==> Call the service client and get the response
