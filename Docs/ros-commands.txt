@@ -17,3 +17,4 @@
 > rostopic list                 ==> List all the active topics
 > rosmsg show < t >             ==> Show information about the t type ---> type + field name
 > rostopic info < t >           ==> Show type, publishers and subscribers of the t topic
+> rostopic echo < t >           ==> Show the data the t topic is processing

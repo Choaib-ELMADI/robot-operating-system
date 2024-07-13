@@ -31,4 +31,6 @@
         - std_msgs/Float32: A 32-bit floating-point number message
 
 => Write a ROS Publisher:
-    * 
+
+=> Write a ROS Subscriber:
+

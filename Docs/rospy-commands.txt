@@ -18,3 +18,4 @@
 > pub.publish(msg)                              ==> Publish the message
 
 > sub = rospy.Subscriber(< t >, < d >, < c >)   ==> Create a subscriber object, t for topic, d for data_class and c for callback
+> rospy.spin()                                  ==> This creates an infinite loop
