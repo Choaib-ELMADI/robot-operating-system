@@ -34,3 +34,8 @@
 
 => Write a ROS Subscriber:
 
+=> ROS Services:
+    * ROS services are a way for nodes in ROS to communicate by sending a request and receiving a response.
+    * EXAMPLE:
+        "Service Provider": A node that offers a service, like turning a robot's lights on or off.
+        "Service Client": A node that calls the service to ask for the lights to be turned on or off.

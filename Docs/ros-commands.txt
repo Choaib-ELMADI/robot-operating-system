@@ -18,3 +18,8 @@
 > rosmsg show < t >             ==> Show information about the t type ---> type + field name
 > rostopic info < t >           ==> Show type, publishers and subscribers of the t topic
 > rostopic echo < t >           ==> Show the data the t topic is processing
+
+> rosservice list               ==> List all the available services
+> rosservice info < s >         ==> Print information about the s service: Node, URI, Type and Args
+> rosservice call < s > < r >   ==> Make a client call to the s service with the r request
+> rossrv show < t >             ==> Show request and response info about the t type service
