@@ -4,6 +4,8 @@
 
 ROS is a set of software libraries and tools that help you build robot applications.
 
+![ROS1 - ROS Noetic](https://img.shields.io/badge/ROS1_-_ROS_Noetic-fb151a?style=for-the-badge)
+
 ## Requirements
 
 - **Operating System**: Debian-based distribution, here I used Ubuntu 20.04.6 LTS.
@@ -62,3 +64,5 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 ```
 
 Visit this link for more details: [Ubuntu install of ROS Noetic](https://wiki.ros.org/noetic/Installation/Ubuntu)
+
+![ROS2 - ROS Humble](https://img.shields.io/badge/ROS2_-_ROS_Humble-fb151a?style=for-the-badge)
