@@ -133,4 +133,10 @@ sudo apt install ros-dev-tools
 source /opt/ros/foxy/setup.bash
 ```
 
+#### Or you can add the command to your `.bashrc` file so that it is sourced automatically in every new terminal:
+
+```bash
+echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
+```
+
 Visit this link for more details: [Ubuntu install of ROS Foxy Fitzroy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html)
