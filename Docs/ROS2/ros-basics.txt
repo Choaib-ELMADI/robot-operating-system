@@ -14,3 +14,11 @@
     > Refers to the functional entity that performs specific tasks.
     -> Each node represents a part of the functionality provided by the executable.
     --> The node defines how the software is structured in terms of communication and computation.
+
+=> ROS2 Topics:
+    * ROS2 topics are a way for different nodes to talk to each other by sending and receiving messages.
+    * Publisher: publishing node, a sensor node that publishes some data to a topic.
+    * Subscriber: subscribing node, a processing node that subscribes to a topic to receive data from it.
+
+=> ROS2 Interfaces:
+    * An interface refers to the messages, services, and actions that nodes use to communicate.

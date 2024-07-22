@@ -16,3 +16,9 @@
 
 > ros2 node list                                                ==> List all active nodes
 > ros2 node info < n >                                          ==> Get info about the node n
+
+> ros2 interface proto < i >                                    ==> Show the prototype of the interface i
+
+> ros2 service list                                             ==> List available services
+> ros2 service list -t                                          ==> List available services with their types
+> ros2 service call < s > < t > < v >                           ==> Call the service s, t for service type and v for service value
