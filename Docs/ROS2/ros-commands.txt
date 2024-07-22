@@ -1,0 +1,18 @@
+> ros2 -h                                                       ==> Get help about ros2 packages
+
+> sudo apt install ros-< d >-< p >                              ==> Install a new package, d for your ros distribution and p for package
+> ros2 pkg list                                                 ==> List installed packages
+> ros2 pkg executables < p >                                    ==> List the executable files within the package p
+
+> ros2 run < p > < n >                                          ==> Run a ros node, p for package and n for node
+
+> rqt                                                           ==> Provides a flexible environment for various ros tools
+> rqt_graph                                                     ==> Visualize the communication between different nodes
+
+> mkdir -p ros2_ws/src                                          ==> Create a local workspace
+> ros2 pkg create --build-type < t > --node-name < n > < p >    ==> Create a package with a node, t = ament_cmake or ament_python (inside ros2_ws/src)
+> colcon build                                                  ==> Build packages (inside ros2_ws)
+> source install/setup.bash                                     ==> Source the workspace (inside ros2_ws)
+
+> ros2 node list                                                ==> List all active nodes
+> ros2 node info < n >                                          ==> Get info about the node n

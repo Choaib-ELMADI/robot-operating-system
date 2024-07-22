@@ -1,0 +1,16 @@
+=> ROS2 Package:
+    * It can be considered as a container\organizer for your ros code.
+    * Packages are designed to be modular, reusable, and shareable.
+
+=> ROS2 Workspace:
+    * A ROS2 workspace is a directory where you can develop, build, and install multiple ROS2 packages.
+
+=> ROS2 Executable:
+    > Refers to the compiled binary or script that can be run.
+    -> An executable can contain one or more nodes.
+    --> The executable itself is just a file that you run.
+
+=> ROS2 Node:
+    > Refers to the functional entity that performs specific tasks.
+    -> Each node represents a part of the functionality provided by the executable.
+    --> The node defines how the software is structured in terms of communication and computation.
