@@ -18,7 +18,14 @@
 > ros2 node info < n >                                          ==> Get info about the node n
 
 > ros2 interface proto < i >                                    ==> Show the prototype of the interface i
+> ros2 interface show < i >                                     ==> Show the interface definition
 
 > ros2 service list                                             ==> List available services
 > ros2 service list -t                                          ==> List available services with their types
 > ros2 service call < s > < t > < v >                           ==> Call the service s, t for service type and v for service value
+
+> ros2 action list                                              ==> List all available actions
+> ros2 action list -t                                           ==> List all available actions with their types
+> ros2 action info < a >                                        ==> Get action info, a for action name
+> ros2 action send_goal < a > < t > < g >                       ==> Send an action goal request, a for action name, t for type and g for goal
+> ros2 action send_goal -f < a > < t > < g >                    ==> Send an action goal request and view feedback

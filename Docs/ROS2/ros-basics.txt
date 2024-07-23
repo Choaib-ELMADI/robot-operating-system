@@ -22,3 +22,17 @@
 
 => ROS2 Interfaces:
     * An interface refers to the messages, services, and actions that nodes use to communicate.
+
+=> ROS2 Actions:
+    * Actions are a way to define and handle tasks that take some time to complete and might need feedback along the way.
+    * Actions are designed for tasks that take a while to finish.
+    * Actions can provide feedback during execution.
+    * Actions consist of goal, feedback, and result:
+        >> Goal: A request to perform a task.
+        >> Feedback: Periodic updates about the progress of the task.
+        >> Result: The final outcome of the task once it is completed.
+
+    -> Action Server: The entity that executes the task and provides feedback and results.
+    -> Action Client: The entity that sends the goal to the action server and can receive feedback and results.
+
+=> 
