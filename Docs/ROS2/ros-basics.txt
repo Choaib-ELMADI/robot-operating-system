@@ -35,4 +35,6 @@
     -> Action Server: The entity that executes the task and provides feedback and results.
     -> Action Client: The entity that sends the goal to the action server and can receive feedback and results.
 
-=> 
+=> ROS2 Parameters:
+    * Parameters are a way to configure nodes with settings that can be adjusted at runtime.
+    * They allow you to change the behavior of nodes without modifying the code.

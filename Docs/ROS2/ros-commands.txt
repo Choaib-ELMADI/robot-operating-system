@@ -29,3 +29,11 @@
 > ros2 action info < a >                                        ==> Get action info, a for action name
 > ros2 action send_goal < a > < t > < g >                       ==> Send an action goal request, a for action name, t for type and g for goal
 > ros2 action send_goal -f < a > < t > < g >                    ==> Send an action goal request and view feedback
+
+> ros2 param list                                               ==> Show available parameters for currently running nodes
+> ros2 param get < n > < p >                                    ==> Get the value for param p in node n
+> ros2 param set < n > < p > < v >                              ==> Set value v for param p in node n
+> ros2 param delete < n > < p >                                 ==> Delete the param p in node n
+> ros2 param describe < n > < p >                               ==> Show descriptive info about param p in node n
+> ros2 param dump < n >                                         ==> Save the parameters of a node into a file
+> ros2 run < p > < n > --ros-args --params-file file.yaml       ==> Run a node with custom already saved parameters
