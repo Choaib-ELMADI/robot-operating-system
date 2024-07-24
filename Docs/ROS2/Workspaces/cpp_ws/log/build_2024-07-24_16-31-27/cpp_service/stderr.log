@@ -1,0 +1,27 @@
+CMake Error at CMakeLists.txt:27 (add_executable):
+  Cannot find source file:
+
+    src/cpp_service_client_polar.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:24 (add_executable):
+  Cannot find source file:
+
+    src/cpp_service_server_polar.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:27 (add_executable):
+  No SOURCES given to target: cpp_service_client_polar
+
+
+CMake Error at CMakeLists.txt:24 (add_executable):
+  No SOURCES given to target: cpp_service_server_polar
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

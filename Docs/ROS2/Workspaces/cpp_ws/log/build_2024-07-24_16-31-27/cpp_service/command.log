@@ -1,0 +1,2 @@
+Invoking command in '/home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/metheuser/ROS/Learning/ROS2/cpp_ws/src/cpp_service -DCMAKE_INSTALL_PREFIX=/home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service
+Invoked command in '/home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/metheuser/ROS/Learning/ROS2/cpp_ws/src/cpp_service -DCMAKE_INSTALL_PREFIX=/home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service

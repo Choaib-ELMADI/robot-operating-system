@@ -1,0 +1,193 @@
+[0.000000] (-) TimerEvent: {}
+[0.000268] (cpp_service) JobQueued: {'identifier': 'cpp_service', 'dependencies': OrderedDict()}
+[0.000472] (cpp_service) JobStarted: {'identifier': 'cpp_service'}
+[0.073370] (cpp_service) JobProgress: {'identifier': 'cpp_service', 'progress': 'cmake'}
+[0.074209] (cpp_service) Command: {'cmd': ['/usr/bin/cmake', '/home/metheuser/ROS/Learning/ROS2/cpp_ws/src/cpp_service', '-DCMAKE_INSTALL_PREFIX=/home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service'], 'cwd': '/home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'metheuser'), ('LC_TIME', 'fr_FR.UTF-8'), ('SSH_AGENT_PID', '1483'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/metheuser'), ('OLDPWD', '/home/metheuser'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1347'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12432'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'metheuser'), ('JOURNAL_STREAM', '8:34321'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'metheuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/my-ubuntu:@/tmp/.ICE-unix/1518,unix/my-ubuntu:/tmp/.ICE-unix/1518'), ('INVOCATION_ID', '0f7c24b4fef449aa97125858d24618ae'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:a76bb27b-0d18-42fd-8f2e-d4a2874faf7a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.097695] (-) TimerEvent: {}
+[0.198685] (-) TimerEvent: {}
+[0.301106] (-) TimerEvent: {}
+[0.402177] (-) TimerEvent: {}
+[0.503140] (-) TimerEvent: {}
+[0.604289] (-) TimerEvent: {}
+[0.705128] (-) TimerEvent: {}
+[0.804530] (cpp_service) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.805404] (-) TimerEvent: {}
+[0.906529] (-) TimerEvent: {}
+[1.007142] (-) TimerEvent: {}
+[1.107773] (-) TimerEvent: {}
+[1.209184] (-) TimerEvent: {}
+[1.309751] (-) TimerEvent: {}
+[1.350443] (cpp_service) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.387262] (cpp_service) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.410211] (-) TimerEvent: {}
+[1.511295] (-) TimerEvent: {}
+[1.612118] (-) TimerEvent: {}
+[1.712669] (-) TimerEvent: {}
+[1.727763] (cpp_service) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.733463] (cpp_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.813053] (-) TimerEvent: {}
+[1.914544] (-) TimerEvent: {}
+[2.015247] (-) TimerEvent: {}
+[2.094221] (cpp_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.115442] (-) TimerEvent: {}
+[2.191530] (cpp_service) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.193741] (cpp_service) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.209185] (cpp_service) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.215761] (-) TimerEvent: {}
+[2.317181] (-) TimerEvent: {}
+[2.417947] (-) TimerEvent: {}
+[2.518888] (-) TimerEvent: {}
+[2.619582] (-) TimerEvent: {}
+[2.642155] (cpp_service) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.649385] (cpp_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.720038] (-) TimerEvent: {}
+[2.820540] (-) TimerEvent: {}
+[2.921906] (-) TimerEvent: {}
+[3.023388] (-) TimerEvent: {}
+[3.070165] (cpp_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.124172] (-) TimerEvent: {}
+[3.189463] (cpp_service) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.193580] (cpp_service) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.214146] (cpp_service) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.224315] (-) TimerEvent: {}
+[3.326006] (-) TimerEvent: {}
+[3.330273] (cpp_service) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.330794] (cpp_service) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.426214] (-) TimerEvent: {}
+[3.526731] (-) TimerEvent: {}
+[3.627211] (-) TimerEvent: {}
+[3.728476] (-) TimerEvent: {}
+[3.828967] (-) TimerEvent: {}
+[3.930389] (-) TimerEvent: {}
+[4.031871] (-) TimerEvent: {}
+[4.133312] (-) TimerEvent: {}
+[4.234715] (-) TimerEvent: {}
+[4.335476] (-) TimerEvent: {}
+[4.419307] (cpp_service) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[4.436022] (-) TimerEvent: {}
+[4.537368] (-) TimerEvent: {}
+[4.638838] (-) TimerEvent: {}
+[4.740287] (-) TimerEvent: {}
+[4.782043] (cpp_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.833518] (cpp_service) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.841092] (-) TimerEvent: {}
+[4.942703] (-) TimerEvent: {}
+[5.044156] (-) TimerEvent: {}
+[5.145575] (-) TimerEvent: {}
+[5.246535] (-) TimerEvent: {}
+[5.313772] (cpp_service) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.347011] (-) TimerEvent: {}
+[5.447844] (-) TimerEvent: {}
+[5.494622] (cpp_service) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.548079] (-) TimerEvent: {}
+[5.649489] (-) TimerEvent: {}
+[5.750817] (-) TimerEvent: {}
+[5.852290] (-) TimerEvent: {}
+[5.953377] (-) TimerEvent: {}
+[6.054818] (-) TimerEvent: {}
+[6.067634] (cpp_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.155270] (-) TimerEvent: {}
+[6.256693] (-) TimerEvent: {}
+[6.357740] (-) TimerEvent: {}
+[6.459605] (-) TimerEvent: {}
+[6.532664] (cpp_service) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[6.545000] (cpp_service) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.552727] (cpp_service) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.559786] (-) TimerEvent: {}
+[6.660770] (-) TimerEvent: {}
+[6.762204] (-) TimerEvent: {}
+[6.863634] (-) TimerEvent: {}
+[6.965059] (-) TimerEvent: {}
+[6.970629] (cpp_service) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.972042] (cpp_service) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.065534] (-) TimerEvent: {}
+[7.166201] (-) TimerEvent: {}
+[7.267509] (-) TimerEvent: {}
+[7.342856] (cpp_service) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[7.344167] (cpp_service) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[7.368008] (-) TimerEvent: {}
+[7.469349] (-) TimerEvent: {}
+[7.571809] (-) TimerEvent: {}
+[7.645201] (cpp_service) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[7.645892] (cpp_service) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[7.672263] (-) TimerEvent: {}
+[7.773640] (-) TimerEvent: {}
+[7.874373] (-) TimerEvent: {}
+[7.975327] (-) TimerEvent: {}
+[8.009468] (cpp_service) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[8.018529] (cpp_service) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.075617] (-) TimerEvent: {}
+[8.176751] (-) TimerEvent: {}
+[8.277360] (-) TimerEvent: {}
+[8.377899] (-) TimerEvent: {}
+[8.478614] (-) TimerEvent: {}
+[8.579099] (-) TimerEvent: {}
+[8.680012] (-) TimerEvent: {}
+[8.780781] (-) TimerEvent: {}
+[8.881574] (-) TimerEvent: {}
+[8.982267] (-) TimerEvent: {}
+[9.083103] (-) TimerEvent: {}
+[9.183667] (-) TimerEvent: {}
+[9.284675] (-) TimerEvent: {}
+[9.385491] (-) TimerEvent: {}
+[9.475367] (cpp_service) StdoutLine: {'line': b'-- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[9.485709] (-) TimerEvent: {}
+[9.586458] (-) TimerEvent: {}
+[9.687450] (-) TimerEvent: {}
+[9.788452] (-) TimerEvent: {}
+[9.889148] (-) TimerEvent: {}
+[9.989689] (-) TimerEvent: {}
+[10.090633] (-) TimerEvent: {}
+[10.191324] (-) TimerEvent: {}
+[10.292099] (-) TimerEvent: {}
+[10.392716] (-) TimerEvent: {}
+[10.493338] (-) TimerEvent: {}
+[10.523167] (cpp_service) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.594814] (-) TimerEvent: {}
+[10.696207] (-) TimerEvent: {}
+[10.797014] (-) TimerEvent: {}
+[10.897877] (-) TimerEvent: {}
+[10.945150] (cpp_service) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.951194] (cpp_service) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.952424] (cpp_service) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.952714] (cpp_service) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.957821] (cpp_service) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.967593] (cpp_service) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.972199] (cpp_service) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.979427] (cpp_service) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.980199] (cpp_service) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.983494] (cpp_service) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.998116] (-) TimerEvent: {}
+[11.006299] (cpp_service) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.012600] (cpp_service) StderrLine: {'line': b'CMake Error at CMakeLists.txt:27 (add_executable):\n'}
+[11.013345] (cpp_service) StderrLine: {'line': b'  Cannot find source file:\n'}
+[11.014491] (cpp_service) StderrLine: {'line': b'\n'}
+[11.015025] (cpp_service) StderrLine: {'line': b'    src/cpp_service_client_polar.cpp\n'}
+[11.015516] (cpp_service) StderrLine: {'line': b'\n'}
+[11.016082] (cpp_service) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[11.016623] (cpp_service) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[11.017094] (cpp_service) StderrLine: {'line': b'\n'}
+[11.017585] (cpp_service) StderrLine: {'line': b'\n'}
+[11.024520] (cpp_service) StderrLine: {'line': b'CMake Error at CMakeLists.txt:24 (add_executable):\n'}
+[11.027281] (cpp_service) StderrLine: {'line': b'  Cannot find source file:\n'}
+[11.028663] (cpp_service) StderrLine: {'line': b'\n'}
+[11.029193] (cpp_service) StderrLine: {'line': b'    src/cpp_service_server_polar.cpp\n'}
+[11.029616] (cpp_service) StderrLine: {'line': b'\n'}
+[11.030248] (cpp_service) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[11.030661] (cpp_service) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[11.031139] (cpp_service) StderrLine: {'line': b'\n'}
+[11.031545] (cpp_service) StderrLine: {'line': b'\n'}
+[11.032138] (cpp_service) StderrLine: {'line': b'CMake Error at CMakeLists.txt:27 (add_executable):\n'}
+[11.032516] (cpp_service) StderrLine: {'line': b'  No SOURCES given to target: cpp_service_client_polar\n'}
+[11.032869] (cpp_service) StderrLine: {'line': b'\n'}
+[11.033300] (cpp_service) StderrLine: {'line': b'\n'}
+[11.033666] (cpp_service) StderrLine: {'line': b'CMake Error at CMakeLists.txt:24 (add_executable):\n'}
+[11.034117] (cpp_service) StderrLine: {'line': b'  No SOURCES given to target: cpp_service_server_polar\n'}
+[11.034533] (cpp_service) StderrLine: {'line': b'\n'}
+[11.035004] (cpp_service) StderrLine: {'line': b'\n'}
+[11.035383] (cpp_service) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[11.064759] (cpp_service) CommandEnded: {'returncode': 1}
+[11.098603] (-) TimerEvent: {}
+[11.189126] (cpp_service) JobEnded: {'identifier': 'cpp_service', 'rc': 1}
+[11.199152] (-) TimerEvent: {}
+[11.201249] (-) EventReactorShutdown: {}

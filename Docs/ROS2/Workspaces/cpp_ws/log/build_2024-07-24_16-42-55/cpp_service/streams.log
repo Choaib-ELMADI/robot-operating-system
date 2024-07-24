@@ -1,0 +1,57 @@
+[0.084s] Invoking command in '/home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/metheuser/ROS/Learning/ROS2/cpp_ws/src/cpp_service -DCMAKE_INSTALL_PREFIX=/home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service
+[0.187s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.289s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.296s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.512s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.538s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.317s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.739s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.148s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[5.170s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.486s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.493s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.494s] -- Configured cppcheck include dirs: 
+[5.495s] -- Configured cppcheck exclude dirs and/or files: 
+[5.499s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.500s] -- Configured cpplint exclude dirs and/or files: 
+[5.503s] -- Added test 'lint_cmake' to check CMake code style
+[5.509s] -- Added test 'uncrustify' to check C / C++ code style
+[5.510s] -- Configured uncrustify additional arguments: 
+[5.512s] -- Added test 'xmllint' to check XML markup files
+[5.528s] -- Configuring done
+[5.632s] -- Generating done
+[5.647s] -- Build files have been written to: /home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service
+[5.683s] Invoked command in '/home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/metheuser/ROS/Learning/ROS2/cpp_ws/src/cpp_service -DCMAKE_INSTALL_PREFIX=/home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service
+[5.687s] Invoking command in '/home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service -- -j2 -l2
+[5.908s] [35m[1mScanning dependencies of target cpp_ser_polar[0m
+[5.909s] [35m[1mScanning dependencies of target cpp_cli_polar[0m
+[6.345s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_ser_polar.dir/src/cpp_ser_polar.cpp.o[0m
+[6.352s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_cli_polar.dir/src/cpp_cli_polar.cpp.o[0m
+[20.413s] [ 75%] [32m[1mLinking CXX executable cpp_ser_polar[0m
+[21.324s] [ 75%] Built target cpp_ser_polar
+[22.684s] [100%] [32m[1mLinking CXX executable cpp_cli_polar[0m
+[23.435s] [100%] Built target cpp_cli_polar
+[23.504s] Invoked command in '/home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service -- -j2 -l2
+[23.666s] Invoking command in '/home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service
+[23.702s] -- Install configuration: ""
+[23.702s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/lib/cpp_service/cpp_ser_polar
+[23.706s] -- Set runtime path of "/home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/lib/cpp_service/cpp_ser_polar" to ""
+[23.706s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/lib/cpp_service/cpp_cli_polar
+[23.710s] -- Set runtime path of "/home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/lib/cpp_service/cpp_cli_polar" to ""
+[23.710s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/ament_index/resource_index/package_run_dependencies/cpp_service
+[23.712s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/ament_index/resource_index/parent_prefix_path/cpp_service
+[23.713s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/cpp_service/environment/ament_prefix_path.sh
+[23.714s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/cpp_service/environment/ament_prefix_path.dsv
+[23.714s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/cpp_service/environment/path.sh
+[23.715s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/cpp_service/environment/path.dsv
+[23.716s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/cpp_service/local_setup.bash
+[23.717s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/cpp_service/local_setup.sh
+[23.718s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/cpp_service/local_setup.zsh
+[23.718s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/cpp_service/local_setup.dsv
+[23.719s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/cpp_service/package.dsv
+[23.720s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/ament_index/resource_index/packages/cpp_service
+[23.721s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig.cmake
+[23.722s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/cpp_service/cmake/cpp_serviceConfig-version.cmake
+[23.723s] -- Installing: /home/metheuser/ROS/Learning/ROS2/cpp_ws/install/cpp_service/share/cpp_service/package.xml
+[23.732s] Invoked command in '/home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/metheuser/ROS/Learning/ROS2/cpp_ws/build/cpp_service
