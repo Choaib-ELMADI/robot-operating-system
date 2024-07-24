@@ -1,0 +1,648 @@
+[0.000000] (-) TimerEvent: {}
+[0.003395] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.003562] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.112970] (-) TimerEvent: {}
+[0.122663] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.134513] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/src/my_cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg'], 'cwd': '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'metheuser'), ('LC_TIME', 'fr_FR.UTF-8'), ('SSH_AGENT_PID', '1514'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/metheuser'), ('OLDPWD', '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/src/my_cpp_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1378'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4693'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'metheuser'), ('JOURNAL_STREAM', '8:34850'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'metheuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/my-ubuntu:@/tmp/.ICE-unix/1553,unix/my-ubuntu:/tmp/.ICE-unix/1553'), ('INVOCATION_ID', '7419d66948d745e9aec5e288ab1e952b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8413742d-1c16-4336-8a68-2aef1df7c2af'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.214053] (-) TimerEvent: {}
+[0.315286] (-) TimerEvent: {}
+[0.416691] (-) TimerEvent: {}
+[0.517462] (-) TimerEvent: {}
+[0.618458] (-) TimerEvent: {}
+[0.719682] (-) TimerEvent: {}
+[0.820484] (-) TimerEvent: {}
+[0.921094] (-) TimerEvent: {}
+[0.927557] (my_cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.021445] (-) TimerEvent: {}
+[1.122360] (-) TimerEvent: {}
+[1.223622] (-) TimerEvent: {}
+[1.324595] (-) TimerEvent: {}
+[1.425310] (-) TimerEvent: {}
+[1.531585] (-) TimerEvent: {}
+[1.564679] (my_cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.619488] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.631844] (-) TimerEvent: {}
+[1.732920] (-) TimerEvent: {}
+[1.833687] (-) TimerEvent: {}
+[1.934397] (-) TimerEvent: {}
+[2.035251] (-) TimerEvent: {}
+[2.058592] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.069303] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.135453] (-) TimerEvent: {}
+[2.236170] (-) TimerEvent: {}
+[2.336905] (-) TimerEvent: {}
+[2.438351] (-) TimerEvent: {}
+[2.492604] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.538551] (-) TimerEvent: {}
+[2.615683] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.619073] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.632781] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.638815] (-) TimerEvent: {}
+[2.739515] (-) TimerEvent: {}
+[2.840528] (-) TimerEvent: {}
+[2.941297] (-) TimerEvent: {}
+[3.042728] (-) TimerEvent: {}
+[3.142483] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.142985] (-) TimerEvent: {}
+[3.147412] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.243208] (-) TimerEvent: {}
+[3.344287] (-) TimerEvent: {}
+[3.445085] (-) TimerEvent: {}
+[3.546413] (-) TimerEvent: {}
+[3.648439] (-) TimerEvent: {}
+[3.708860] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.748615] (-) TimerEvent: {}
+[3.841947] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.847214] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.848832] (-) TimerEvent: {}
+[3.874390] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.949068] (-) TimerEvent: {}
+[4.029987] (my_cpp_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.031320] (my_cpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.049393] (-) TimerEvent: {}
+[4.150756] (-) TimerEvent: {}
+[4.251414] (-) TimerEvent: {}
+[4.352043] (-) TimerEvent: {}
+[4.452663] (-) TimerEvent: {}
+[4.553292] (-) TimerEvent: {}
+[4.654148] (-) TimerEvent: {}
+[4.754787] (-) TimerEvent: {}
+[4.855446] (-) TimerEvent: {}
+[4.956152] (-) TimerEvent: {}
+[5.056832] (-) TimerEvent: {}
+[5.157551] (-) TimerEvent: {}
+[5.258365] (-) TimerEvent: {}
+[5.282282] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[5.358585] (-) TimerEvent: {}
+[5.459571] (-) TimerEvent: {}
+[5.560214] (-) TimerEvent: {}
+[5.648059] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.660499] (-) TimerEvent: {}
+[5.701755] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.760723] (-) TimerEvent: {}
+[5.861378] (-) TimerEvent: {}
+[5.962421] (-) TimerEvent: {}
+[6.063868] (-) TimerEvent: {}
+[6.165286] (-) TimerEvent: {}
+[6.256563] (my_cpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.265501] (-) TimerEvent: {}
+[6.366991] (-) TimerEvent: {}
+[6.467740] (-) TimerEvent: {}
+[6.540889] (my_cpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.578654] (-) TimerEvent: {}
+[6.679371] (-) TimerEvent: {}
+[6.779968] (-) TimerEvent: {}
+[6.880964] (-) TimerEvent: {}
+[6.982139] (-) TimerEvent: {}
+[7.082923] (-) TimerEvent: {}
+[7.183546] (-) TimerEvent: {}
+[7.227039] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.285529] (-) TimerEvent: {}
+[7.386340] (-) TimerEvent: {}
+[7.487265] (-) TimerEvent: {}
+[7.588707] (-) TimerEvent: {}
+[7.690163] (-) TimerEvent: {}
+[7.790942] (-) TimerEvent: {}
+[7.848184] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.864478] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.874744] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.891196] (-) TimerEvent: {}
+[7.991939] (-) TimerEvent: {}
+[8.092965] (-) TimerEvent: {}
+[8.194761] (-) TimerEvent: {}
+[8.295704] (-) TimerEvent: {}
+[8.399393] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.400117] (-) TimerEvent: {}
+[8.401427] (my_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.500625] (-) TimerEvent: {}
+[8.601476] (-) TimerEvent: {}
+[8.702538] (-) TimerEvent: {}
+[8.804012] (-) TimerEvent: {}
+[8.899690] (my_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[8.901749] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[8.904214] (-) TimerEvent: {}
+[9.004953] (-) TimerEvent: {}
+[9.105731] (-) TimerEvent: {}
+[9.206812] (-) TimerEvent: {}
+[9.286791] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[9.287566] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[9.307290] (-) TimerEvent: {}
+[9.408764] (-) TimerEvent: {}
+[9.509512] (-) TimerEvent: {}
+[9.610246] (-) TimerEvent: {}
+[9.711653] (-) TimerEvent: {}
+[9.762375] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.772031] (my_cpp_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.811860] (-) TimerEvent: {}
+[9.912883] (-) TimerEvent: {}
+[10.013949] (-) TimerEvent: {}
+[10.114551] (-) TimerEvent: {}
+[10.215190] (-) TimerEvent: {}
+[10.316109] (-) TimerEvent: {}
+[10.416836] (-) TimerEvent: {}
+[10.519269] (-) TimerEvent: {}
+[10.619878] (-) TimerEvent: {}
+[10.720474] (-) TimerEvent: {}
+[10.821090] (-) TimerEvent: {}
+[10.921797] (-) TimerEvent: {}
+[11.022500] (-) TimerEvent: {}
+[11.123131] (-) TimerEvent: {}
+[11.223754] (-) TimerEvent: {}
+[11.324396] (-) TimerEvent: {}
+[11.425088] (-) TimerEvent: {}
+[11.525783] (-) TimerEvent: {}
+[11.626490] (-) TimerEvent: {}
+[11.671457] (my_cpp_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[11.726751] (-) TimerEvent: {}
+[11.827423] (-) TimerEvent: {}
+[11.928076] (-) TimerEvent: {}
+[12.028877] (-) TimerEvent: {}
+[12.113413] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[12.129575] (-) TimerEvent: {}
+[12.230936] (-) TimerEvent: {}
+[12.331957] (-) TimerEvent: {}
+[12.432705] (-) TimerEvent: {}
+[12.533551] (-) TimerEvent: {}
+[12.623859] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[12.632619] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.633729] (-) TimerEvent: {}
+[12.634384] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[12.634911] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.640782] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[12.641331] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[12.647485] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.655693] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.656294] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.660064] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.683023] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.733999] (-) TimerEvent: {}
+[12.779644] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[12.795454] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg\n'}
+[12.834421] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[12.836357] (-) TimerEvent: {}
+[12.849919] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[12.850772] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg', '--', '-j2', '-l2'], 'cwd': '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'metheuser'), ('LC_TIME', 'fr_FR.UTF-8'), ('SSH_AGENT_PID', '1514'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/metheuser'), ('OLDPWD', '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/src/my_cpp_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1378'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4693'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'metheuser'), ('JOURNAL_STREAM', '8:34850'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'metheuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/my-ubuntu:@/tmp/.ICE-unix/1553,unix/my-ubuntu:/tmp/.ICE-unix/1553'), ('INVOCATION_ID', '7419d66948d745e9aec5e288ab1e952b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8413742d-1c16-4336-8a68-2aef1df7c2af'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[12.937128] (-) TimerEvent: {}
+[13.038604] (-) TimerEvent: {}
+[13.087505] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub_node\x1b[0m\n'}
+[13.118399] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sub_node\x1b[0m\n'}
+[13.138999] (-) TimerEvent: {}
+[13.240559] (-) TimerEvent: {}
+[13.341539] (-) TimerEvent: {}
+[13.442875] (-) TimerEvent: {}
+[13.543957] (-) TimerEvent: {}
+[13.645241] (-) TimerEvent: {}
+[13.746805] (-) TimerEvent: {}
+[13.755247] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o\x1b[0m\n'}
+[13.809102] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub_node.cpp.o\x1b[0m\n'}
+[13.851192] (-) TimerEvent: {}
+[13.952519] (-) TimerEvent: {}
+[14.054109] (-) TimerEvent: {}
+[14.155400] (-) TimerEvent: {}
+[14.256332] (-) TimerEvent: {}
+[14.357649] (-) TimerEvent: {}
+[14.461511] (-) TimerEvent: {}
+[14.562412] (-) TimerEvent: {}
+[14.663064] (-) TimerEvent: {}
+[14.763775] (-) TimerEvent: {}
+[14.864513] (-) TimerEvent: {}
+[14.965164] (-) TimerEvent: {}
+[15.066459] (-) TimerEvent: {}
+[15.167929] (-) TimerEvent: {}
+[15.270807] (-) TimerEvent: {}
+[15.386495] (-) TimerEvent: {}
+[15.487209] (-) TimerEvent: {}
+[15.605274] (-) TimerEvent: {}
+[15.706530] (-) TimerEvent: {}
+[15.807368] (-) TimerEvent: {}
+[15.908076] (-) TimerEvent: {}
+[16.009028] (-) TimerEvent: {}
+[16.109744] (-) TimerEvent: {}
+[16.210884] (-) TimerEvent: {}
+[16.311645] (-) TimerEvent: {}
+[16.421461] (-) TimerEvent: {}
+[16.525047] (-) TimerEvent: {}
+[16.631616] (-) TimerEvent: {}
+[16.733019] (-) TimerEvent: {}
+[16.833780] (-) TimerEvent: {}
+[16.934779] (-) TimerEvent: {}
+[17.035470] (-) TimerEvent: {}
+[17.136208] (-) TimerEvent: {}
+[17.242593] (-) TimerEvent: {}
+[17.357222] (-) TimerEvent: {}
+[17.471331] (-) TimerEvent: {}
+[17.572098] (-) TimerEvent: {}
+[17.672999] (-) TimerEvent: {}
+[17.773716] (-) TimerEvent: {}
+[17.874777] (-) TimerEvent: {}
+[17.976032] (-) TimerEvent: {}
+[18.077538] (-) TimerEvent: {}
+[18.188014] (-) TimerEvent: {}
+[18.290984] (-) TimerEvent: {}
+[18.421312] (-) TimerEvent: {}
+[18.539213] (-) TimerEvent: {}
+[18.654017] (-) TimerEvent: {}
+[18.770172] (-) TimerEvent: {}
+[18.872221] (-) TimerEvent: {}
+[18.987838] (-) TimerEvent: {}
+[19.101777] (-) TimerEvent: {}
+[19.223642] (-) TimerEvent: {}
+[19.324364] (-) TimerEvent: {}
+[19.425122] (-) TimerEvent: {}
+[19.526219] (-) TimerEvent: {}
+[19.627592] (-) TimerEvent: {}
+[19.728352] (-) TimerEvent: {}
+[19.829195] (-) TimerEvent: {}
+[19.930689] (-) TimerEvent: {}
+[20.031394] (-) TimerEvent: {}
+[20.132086] (-) TimerEvent: {}
+[20.232882] (-) TimerEvent: {}
+[20.333764] (-) TimerEvent: {}
+[20.450733] (-) TimerEvent: {}
+[20.552081] (-) TimerEvent: {}
+[20.653554] (-) TimerEvent: {}
+[20.754438] (-) TimerEvent: {}
+[20.855259] (-) TimerEvent: {}
+[20.955982] (-) TimerEvent: {}
+[21.056693] (-) TimerEvent: {}
+[21.158858] (-) TimerEvent: {}
+[21.293982] (-) TimerEvent: {}
+[21.407505] (-) TimerEvent: {}
+[21.508278] (-) TimerEvent: {}
+[21.643036] (-) TimerEvent: {}
+[21.754738] (-) TimerEvent: {}
+[21.869845] (-) TimerEvent: {}
+[21.983971] (-) TimerEvent: {}
+[22.087925] (-) TimerEvent: {}
+[22.202457] (-) TimerEvent: {}
+[22.304455] (-) TimerEvent: {}
+[22.405230] (-) TimerEvent: {}
+[22.506066] (-) TimerEvent: {}
+[22.607145] (-) TimerEvent: {}
+[22.707864] (-) TimerEvent: {}
+[22.809134] (-) TimerEvent: {}
+[22.910482] (-) TimerEvent: {}
+[23.021767] (-) TimerEvent: {}
+[23.129447] (-) TimerEvent: {}
+[23.230413] (-) TimerEvent: {}
+[23.331964] (-) TimerEvent: {}
+[23.432804] (-) TimerEvent: {}
+[23.540675] (-) TimerEvent: {}
+[23.641318] (-) TimerEvent: {}
+[23.755743] (-) TimerEvent: {}
+[23.871014] (-) TimerEvent: {}
+[23.985932] (-) TimerEvent: {}
+[24.101104] (-) TimerEvent: {}
+[24.243482] (-) TimerEvent: {}
+[24.344192] (-) TimerEvent: {}
+[24.477810] (-) TimerEvent: {}
+[24.590703] (-) TimerEvent: {}
+[24.707526] (-) TimerEvent: {}
+[24.821006] (-) TimerEvent: {}
+[24.935063] (-) TimerEvent: {}
+[25.049108] (-) TimerEvent: {}
+[25.165243] (-) TimerEvent: {}
+[25.286942] (-) TimerEvent: {}
+[25.387608] (-) TimerEvent: {}
+[25.488311] (-) TimerEvent: {}
+[25.590273] (-) TimerEvent: {}
+[25.690988] (-) TimerEvent: {}
+[25.792240] (-) TimerEvent: {}
+[25.893049] (-) TimerEvent: {}
+[25.993794] (-) TimerEvent: {}
+[26.122644] (-) TimerEvent: {}
+[26.223714] (-) TimerEvent: {}
+[26.324857] (-) TimerEvent: {}
+[26.425767] (-) TimerEvent: {}
+[26.526878] (-) TimerEvent: {}
+[26.627935] (-) TimerEvent: {}
+[26.729503] (-) TimerEvent: {}
+[26.843785] (-) TimerEvent: {}
+[26.961777] (-) TimerEvent: {}
+[27.063191] (-) TimerEvent: {}
+[27.164135] (-) TimerEvent: {}
+[27.302523] (-) TimerEvent: {}
+[27.408046] (-) TimerEvent: {}
+[27.509058] (-) TimerEvent: {}
+[27.610179] (-) TimerEvent: {}
+[27.711234] (-) TimerEvent: {}
+[27.815764] (-) TimerEvent: {}
+[27.916835] (-) TimerEvent: {}
+[28.019175] (-) TimerEvent: {}
+[28.120186] (-) TimerEvent: {}
+[28.237168] (-) TimerEvent: {}
+[28.350276] (-) TimerEvent: {}
+[28.465688] (-) TimerEvent: {}
+[28.568181] (-) TimerEvent: {}
+[28.669234] (-) TimerEvent: {}
+[28.770626] (-) TimerEvent: {}
+[28.897964] (-) TimerEvent: {}
+[28.999065] (-) TimerEvent: {}
+[29.100098] (-) TimerEvent: {}
+[29.201181] (-) TimerEvent: {}
+[29.307030] (-) TimerEvent: {}
+[29.410545] (-) TimerEvent: {}
+[29.511563] (-) TimerEvent: {}
+[29.613256] (-) TimerEvent: {}
+[29.714402] (-) TimerEvent: {}
+[29.816698] (-) TimerEvent: {}
+[29.918211] (-) TimerEvent: {}
+[30.020094] (-) TimerEvent: {}
+[30.121533] (-) TimerEvent: {}
+[30.228034] (-) TimerEvent: {}
+[30.329134] (-) TimerEvent: {}
+[30.436189] (-) TimerEvent: {}
+[30.587361] (-) TimerEvent: {}
+[30.688355] (-) TimerEvent: {}
+[30.789372] (-) TimerEvent: {}
+[30.897625] (-) TimerEvent: {}
+[31.000868] (-) TimerEvent: {}
+[31.102315] (-) TimerEvent: {}
+[31.202962] (-) TimerEvent: {}
+[31.308358] (-) TimerEvent: {}
+[31.409679] (-) TimerEvent: {}
+[31.510765] (-) TimerEvent: {}
+[31.611779] (-) TimerEvent: {}
+[31.712904] (-) TimerEvent: {}
+[31.813784] (-) TimerEvent: {}
+[31.926495] (-) TimerEvent: {}
+[32.039639] (-) TimerEvent: {}
+[32.140526] (-) TimerEvent: {}
+[32.293417] (-) TimerEvent: {}
+[32.394477] (-) TimerEvent: {}
+[32.495612] (-) TimerEvent: {}
+[32.596558] (-) TimerEvent: {}
+[32.697941] (-) TimerEvent: {}
+[32.798842] (-) TimerEvent: {}
+[32.899899] (-) TimerEvent: {}
+[33.001001] (-) TimerEvent: {}
+[33.102048] (-) TimerEvent: {}
+[33.209394] (-) TimerEvent: {}
+[33.321367] (-) TimerEvent: {}
+[33.422388] (-) TimerEvent: {}
+[33.523563] (-) TimerEvent: {}
+[33.680636] (-) TimerEvent: {}
+[33.782631] (-) TimerEvent: {}
+[33.883539] (-) TimerEvent: {}
+[33.984682] (-) TimerEvent: {}
+[34.085738] (-) TimerEvent: {}
+[34.186809] (-) TimerEvent: {}
+[34.287874] (-) TimerEvent: {}
+[34.399128] (-) TimerEvent: {}
+[34.512278] (-) TimerEvent: {}
+[34.613723] (-) TimerEvent: {}
+[34.714663] (-) TimerEvent: {}
+[34.824688] (-) TimerEvent: {}
+[34.930884] (-) TimerEvent: {}
+[35.031990] (-) TimerEvent: {}
+[35.132954] (-) TimerEvent: {}
+[35.234110] (-) TimerEvent: {}
+[35.335445] (-) TimerEvent: {}
+[35.436378] (-) TimerEvent: {}
+[35.610745] (-) TimerEvent: {}
+[35.711749] (-) TimerEvent: {}
+[35.820309] (-) TimerEvent: {}
+[35.921417] (-) TimerEvent: {}
+[36.022538] (-) TimerEvent: {}
+[36.123637] (-) TimerEvent: {}
+[36.224588] (-) TimerEvent: {}
+[36.328767] (-) TimerEvent: {}
+[36.435331] (-) TimerEvent: {}
+[36.598767] (-) TimerEvent: {}
+[36.712788] (-) TimerEvent: {}
+[36.813670] (-) TimerEvent: {}
+[36.914643] (-) TimerEvent: {}
+[37.015668] (-) TimerEvent: {}
+[37.116827] (-) TimerEvent: {}
+[37.217997] (-) TimerEvent: {}
+[37.319283] (-) TimerEvent: {}
+[37.419993] (-) TimerEvent: {}
+[37.529110] (-) TimerEvent: {}
+[37.630227] (-) TimerEvent: {}
+[37.730963] (-) TimerEvent: {}
+[37.832045] (-) TimerEvent: {}
+[37.936813] (-) TimerEvent: {}
+[38.052139] (-) TimerEvent: {}
+[38.161165] (-) TimerEvent: {}
+[38.262561] (-) TimerEvent: {}
+[38.363347] (-) TimerEvent: {}
+[38.464168] (-) TimerEvent: {}
+[38.651910] (-) TimerEvent: {}
+[38.753185] (-) TimerEvent: {}
+[38.854593] (-) TimerEvent: {}
+[38.955620] (-) TimerEvent: {}
+[39.063483] (-) TimerEvent: {}
+[39.164276] (-) TimerEvent: {}
+[39.265037] (-) TimerEvent: {}
+[39.366673] (-) TimerEvent: {}
+[39.467378] (-) TimerEvent: {}
+[39.568052] (-) TimerEvent: {}
+[39.770532] (-) TimerEvent: {}
+[39.871442] (-) TimerEvent: {}
+[39.972886] (-) TimerEvent: {}
+[40.073570] (-) TimerEvent: {}
+[40.174851] (-) TimerEvent: {}
+[40.277928] (-) TimerEvent: {}
+[40.380321] (-) TimerEvent: {}
+[40.491808] (-) TimerEvent: {}
+[40.592456] (-) TimerEvent: {}
+[40.693245] (-) TimerEvent: {}
+[40.800076] (-) TimerEvent: {}
+[40.900813] (-) TimerEvent: {}
+[41.005840] (-) TimerEvent: {}
+[41.111773] (-) TimerEvent: {}
+[41.212873] (-) TimerEvent: {}
+[41.313546] (-) TimerEvent: {}
+[41.414623] (-) TimerEvent: {}
+[41.515342] (-) TimerEvent: {}
+[41.757932] (-) TimerEvent: {}
+[41.858595] (-) TimerEvent: {}
+[41.961215] (-) TimerEvent: {}
+[42.068136] (-) TimerEvent: {}
+[42.168859] (-) TimerEvent: {}
+[42.269843] (-) TimerEvent: {}
+[42.370518] (-) TimerEvent: {}
+[42.471272] (-) TimerEvent: {}
+[42.595351] (-) TimerEvent: {}
+[42.670152] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable pub_node\x1b[0m\n'}
+[42.708617] (-) TimerEvent: {}
+[42.809370] (-) TimerEvent: {}
+[42.910290] (-) TimerEvent: {}
+[43.015022] (-) TimerEvent: {}
+[43.116712] (-) TimerEvent: {}
+[43.217575] (-) TimerEvent: {}
+[43.318307] (-) TimerEvent: {}
+[43.419034] (-) TimerEvent: {}
+[43.519804] (-) TimerEvent: {}
+[43.631278] (-) TimerEvent: {}
+[43.746267] (-) TimerEvent: {}
+[43.861368] (-) TimerEvent: {}
+[43.977458] (-) TimerEvent: {}
+[44.078216] (-) TimerEvent: {}
+[44.178892] (-) TimerEvent: {}
+[44.279685] (-) TimerEvent: {}
+[44.290071] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target pub_node\n'}
+[44.379905] (-) TimerEvent: {}
+[44.480703] (-) TimerEvent: {}
+[44.582170] (-) TimerEvent: {}
+[44.686523] (-) TimerEvent: {}
+[44.787286] (-) TimerEvent: {}
+[44.888115] (-) TimerEvent: {}
+[44.988894] (-) TimerEvent: {}
+[45.089588] (-) TimerEvent: {}
+[45.190800] (-) TimerEvent: {}
+[45.291577] (-) TimerEvent: {}
+[45.392281] (-) TimerEvent: {}
+[45.493067] (-) TimerEvent: {}
+[45.594016] (-) TimerEvent: {}
+[45.694796] (-) TimerEvent: {}
+[45.795759] (-) TimerEvent: {}
+[45.896968] (-) TimerEvent: {}
+[45.997738] (-) TimerEvent: {}
+[46.098614] (-) TimerEvent: {}
+[46.199395] (-) TimerEvent: {}
+[46.300134] (-) TimerEvent: {}
+[46.400811] (-) TimerEvent: {}
+[46.501506] (-) TimerEvent: {}
+[46.602422] (-) TimerEvent: {}
+[46.706085] (-) TimerEvent: {}
+[46.806757] (-) TimerEvent: {}
+[46.907414] (-) TimerEvent: {}
+[47.008200] (-) TimerEvent: {}
+[47.108938] (-) TimerEvent: {}
+[47.209835] (-) TimerEvent: {}
+[47.310592] (-) TimerEvent: {}
+[47.411375] (-) TimerEvent: {}
+[47.512157] (-) TimerEvent: {}
+[47.612804] (-) TimerEvent: {}
+[47.713571] (-) TimerEvent: {}
+[47.814523] (-) TimerEvent: {}
+[47.915180] (-) TimerEvent: {}
+[48.015823] (-) TimerEvent: {}
+[48.116696] (-) TimerEvent: {}
+[48.217477] (-) TimerEvent: {}
+[48.318935] (-) TimerEvent: {}
+[48.419646] (-) TimerEvent: {}
+[48.520488] (-) TimerEvent: {}
+[48.621740] (-) TimerEvent: {}
+[48.723477] (-) TimerEvent: {}
+[48.824242] (-) TimerEvent: {}
+[48.924829] (-) TimerEvent: {}
+[49.025500] (-) TimerEvent: {}
+[49.126465] (-) TimerEvent: {}
+[49.227054] (-) TimerEvent: {}
+[49.337450] (-) TimerEvent: {}
+[49.445855] (-) TimerEvent: {}
+[49.549032] (-) TimerEvent: {}
+[49.650395] (-) TimerEvent: {}
+[49.750967] (-) TimerEvent: {}
+[49.851550] (-) TimerEvent: {}
+[49.952171] (-) TimerEvent: {}
+[50.052915] (-) TimerEvent: {}
+[50.153728] (-) TimerEvent: {}
+[50.254387] (-) TimerEvent: {}
+[50.355056] (-) TimerEvent: {}
+[50.460020] (-) TimerEvent: {}
+[50.560803] (-) TimerEvent: {}
+[50.663516] (-) TimerEvent: {}
+[50.764188] (-) TimerEvent: {}
+[50.864914] (-) TimerEvent: {}
+[50.965814] (-) TimerEvent: {}
+[51.066605] (-) TimerEvent: {}
+[51.167404] (-) TimerEvent: {}
+[51.268105] (-) TimerEvent: {}
+[51.377501] (-) TimerEvent: {}
+[51.478688] (-) TimerEvent: {}
+[51.584222] (-) TimerEvent: {}
+[51.684943] (-) TimerEvent: {}
+[51.785759] (-) TimerEvent: {}
+[51.886591] (-) TimerEvent: {}
+[51.987281] (-) TimerEvent: {}
+[52.088513] (-) TimerEvent: {}
+[52.200767] (-) TimerEvent: {}
+[52.301536] (-) TimerEvent: {}
+[52.416203] (-) TimerEvent: {}
+[52.530647] (-) TimerEvent: {}
+[52.633028] (-) TimerEvent: {}
+[52.733684] (-) TimerEvent: {}
+[52.846380] (-) TimerEvent: {}
+[52.950736] (-) TimerEvent: {}
+[53.051457] (-) TimerEvent: {}
+[53.152177] (-) TimerEvent: {}
+[53.252957] (-) TimerEvent: {}
+[53.353667] (-) TimerEvent: {}
+[53.454436] (-) TimerEvent: {}
+[53.555168] (-) TimerEvent: {}
+[53.667888] (-) TimerEvent: {}
+[53.768677] (-) TimerEvent: {}
+[53.869468] (-) TimerEvent: {}
+[53.971500] (-) TimerEvent: {}
+[54.073818] (-) TimerEvent: {}
+[54.174544] (-) TimerEvent: {}
+[54.275257] (-) TimerEvent: {}
+[54.375950] (-) TimerEvent: {}
+[54.476577] (-) TimerEvent: {}
+[54.599420] (-) TimerEvent: {}
+[54.700140] (-) TimerEvent: {}
+[54.800756] (-) TimerEvent: {}
+[54.901363] (-) TimerEvent: {}
+[55.002022] (-) TimerEvent: {}
+[55.102728] (-) TimerEvent: {}
+[55.203424] (-) TimerEvent: {}
+[55.304097] (-) TimerEvent: {}
+[55.404808] (-) TimerEvent: {}
+[55.505572] (-) TimerEvent: {}
+[55.606293] (-) TimerEvent: {}
+[55.658973] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sub_node\x1b[0m\n'}
+[55.721199] (-) TimerEvent: {}
+[55.877999] (-) TimerEvent: {}
+[55.980783] (-) TimerEvent: {}
+[56.081493] (-) TimerEvent: {}
+[56.182805] (-) TimerEvent: {}
+[56.283530] (-) TimerEvent: {}
+[56.384189] (-) TimerEvent: {}
+[56.485065] (-) TimerEvent: {}
+[56.585986] (-) TimerEvent: {}
+[56.686702] (-) TimerEvent: {}
+[56.787426] (-) TimerEvent: {}
+[56.888077] (-) TimerEvent: {}
+[56.988696] (-) TimerEvent: {}
+[57.089262] (-) TimerEvent: {}
+[57.202125] (-) TimerEvent: {}
+[57.302921] (-) TimerEvent: {}
+[57.403628] (-) TimerEvent: {}
+[57.504363] (-) TimerEvent: {}
+[57.526310] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target sub_node\n'}
+[57.640548] (-) TimerEvent: {}
+[57.675132] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[57.741566] (-) TimerEvent: {}
+[57.842897] (-) TimerEvent: {}
+[57.853298] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[57.909735] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg'], 'cwd': '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'metheuser'), ('LC_TIME', 'fr_FR.UTF-8'), ('SSH_AGENT_PID', '1514'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/metheuser'), ('OLDPWD', '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/src/my_cpp_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '1378'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4693'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'metheuser'), ('JOURNAL_STREAM', '8:34850'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'metheuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/my-ubuntu:@/tmp/.ICE-unix/1553,unix/my-ubuntu:/tmp/.ICE-unix/1553'), ('INVOCATION_ID', '7419d66948d745e9aec5e288ab1e952b'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8413742d-1c16-4336-8a68-2aef1df7c2af'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[57.955995] (-) TimerEvent: {}
+[57.981146] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[57.982351] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/lib/my_cpp_pkg/pub_node\n'}
+[57.990426] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/lib/my_cpp_pkg/pub_node" to ""\n'}
+[57.991256] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/lib/my_cpp_pkg/sub_node\n'}
+[58.004563] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/lib/my_cpp_pkg/sub_node" to ""\n'}
+[58.005481] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[58.006709] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[58.007809] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[58.008625] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[58.009427] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[58.010316] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[58.011125] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[58.011933] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[58.012775] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[58.013845] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[58.014543] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[58.015639] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[58.016717] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[58.017476] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[58.018362] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[58.028291] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[58.056100] (-) TimerEvent: {}
+[58.158079] (-) TimerEvent: {}
+[58.261412] (-) TimerEvent: {}
+[58.351910] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[58.355501] (-) EventReactorShutdown: {}

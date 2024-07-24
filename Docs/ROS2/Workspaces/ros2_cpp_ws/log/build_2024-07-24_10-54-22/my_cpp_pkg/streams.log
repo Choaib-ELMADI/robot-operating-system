@@ -1,0 +1,24 @@
+[0.123s] Invoking command in '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg -- -j2 -l2
+[0.516s] [ 50%] Built target sub_node
+[0.519s] [100%] Built target pub_node
+[0.570s] Invoked command in '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg -- -j2 -l2
+[0.777s] Invoking command in '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg
+[0.819s] -- Install configuration: ""
+[0.821s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/lib/my_cpp_pkg/pub_node
+[0.823s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/lib/my_cpp_pkg/sub_node
+[0.824s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[0.825s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[0.826s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[0.826s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[0.827s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[0.828s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[0.832s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[0.832s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[0.833s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[0.833s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[0.834s] -- Installing: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[0.834s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[0.835s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[0.835s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[0.836s] -- Up-to-date: /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[0.848s] Invoked command in '/home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/metheuser/ROS/Learning/ROS2/ros2_cpp_ws/build/my_cpp_pkg
