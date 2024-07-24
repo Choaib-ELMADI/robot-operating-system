@@ -11,6 +11,7 @@
 
 > mkdir -p ros2_ws/src                                          ==> Create a local workspace
 > ros2 pkg create --build-type < t > --node-name < n > < p >    ==> Create a package with a node, t = ament_cmake or ament_python (inside ros2_ws/src)
+> ros2 pkg create --build-type < t > < p >                      ==> Create an empty package, t = ament_cmake or ament_python (inside ros2_ws/src)
 > colcon build                                                  ==> Build packages (inside ros2_ws)
 > source install/setup.bash                                     ==> Source the workspace (inside ros2_ws)
 
