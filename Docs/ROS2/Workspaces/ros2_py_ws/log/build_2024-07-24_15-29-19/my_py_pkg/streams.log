@@ -1,0 +1,41 @@
+[3.129s] Invoking command in '/home/metheuser/ROS/Learning/ROS2/ros2_py_ws/src/my_py_pkg': PYTHONPATH=/home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/build install --record /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data
+[4.188s] running egg_info
+[4.191s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[4.192s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[4.195s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[4.196s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[4.197s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[4.198s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[4.207s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[4.433s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[4.438s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[4.439s] running build
+[4.439s] running build_py
+[4.441s] creating /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/build
+[4.442s] creating /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/build/lib
+[4.442s] creating /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/build/lib/my_py_pkg
+[4.443s] copying my_py_pkg/pub_node.py -> /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/build/lib/my_py_pkg
+[4.444s] copying my_py_pkg/__init__.py -> /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/build/lib/my_py_pkg
+[4.445s] copying my_py_pkg/sub_node.py -> /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/build/lib/my_py_pkg
+[4.446s] running install
+[4.449s] running install_lib
+[4.453s] creating /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[4.453s] copying /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/build/lib/my_py_pkg/pub_node.py -> /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[4.454s] copying /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[4.454s] copying /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/build/lib/my_py_pkg/sub_node.py -> /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[4.455s] byte-compiling /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/pub_node.py to pub_node.cpython-38.pyc
+[4.465s] byte-compiling /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/__init__.py to __init__.cpython-38.pyc
+[4.468s] byte-compiling /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/sub_node.py to sub_node.cpython-38.pyc
+[4.469s] running install_data
+[4.470s] creating /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/share/ament_index
+[4.470s] creating /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/share/ament_index/resource_index
+[4.470s] creating /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[4.471s] copying resource/my_py_pkg -> /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[4.471s] copying package.xml -> /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/share/my_py_pkg
+[4.471s] running install_egg_info
+[4.475s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[4.479s] running install_scripts
+[4.575s] Installing pub_node script to /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/lib/my_py_pkg
+[4.576s] Installing sub_node script to /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/lib/my_py_pkg
+[4.578s] writing list of installed files to '/home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/install.log'
+[4.667s] Invoked command in '/home/metheuser/ROS/Learning/ROS2/ros2_py_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/metheuser/ROS/Learning/ROS2/ros2_py_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/build install --record /home/metheuser/ROS/Learning/ROS2/ros2_py_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data
