@@ -38,3 +38,8 @@
 => ROS2 Parameters:
     * Parameters are a way to configure nodes with settings that can be adjusted at runtime.
     * They allow you to change the behavior of nodes without modifying the code.
+
+=> ROS2 Launch Files:
+    * Launch files automate starting multiple nodes with specific configurations.
+    * They are defined in Python scripts using a LaunchDescription.
+    * Support for parameters, namespaces, remappings, conditionals, and substitutions allows for flexible and dynamic configurations.

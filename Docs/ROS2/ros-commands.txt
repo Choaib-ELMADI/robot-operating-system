@@ -37,3 +37,9 @@
 > ros2 param describe < n > < p >                               ==> Show descriptive info about param p in node n
 > ros2 param dump < n >                                         ==> Save the parameters of a node into a file
 > ros2 run < p > < n > --ros-args --params-file file.yaml       ==> Run a node with custom already saved parameters
+
+> ros2 launch path_to_launch_file.py                            ==> Run a launch file
+
+> ros2 topic list                                               ==> List all available topics
+> ros2 topic list -t                                            ==> List all available topics with their types
+> ros2 topic pub < n > < t > < v >                              ==> Publish to the topic with name n, t for type and v for value
