@@ -4,6 +4,14 @@
 
 ROS is a set of software libraries and tools that help you build robot applications.
 
+<div align="center">
+
+![ROS](./Images/ros.png)
+
+</div>
+
+<br />
+
 ![ROS1 - ROS Noetic](https://img.shields.io/badge/ROS1_-_ROS_Noetic-fb151a?style=for-the-badge)
 
 ## Requirements
@@ -62,6 +70,8 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 ```
 
 Visit this link for more details: [Ubuntu install of ROS Noetic](https://wiki.ros.org/noetic/Installation/Ubuntu)
+
+<br />
 
 ![ROS2 - ROS Foxy Fitzroy](https://img.shields.io/badge/ROS2_-_ROS_Foxy_Fitzroy-fb151a?style=for-the-badge)
 
